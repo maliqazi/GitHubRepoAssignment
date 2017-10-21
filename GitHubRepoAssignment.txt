@@ -1,0 +1,66 @@
+C:\Users\Administrator\Desktop>md GitHubRepoAssignment
+
+C:\Users\Administrator\Desktop>copy NUL readme.md
+        1 file(s) copied.
+
+
+C:\Users\Administrator\Desktop>cd GitHubRepoAssignment
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git init
+Initialized empty Git repository in C:/Users/Administrator/Desktop/GitHubRepoAss
+ignment/.git/
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git add readme.md
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git commit -m "initial commit"
+[master (root-commit) a9189d0] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git remote add origin https://github.com/maliqazi/GitHubRepoAssignment.git
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 219 bytes | 219.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/maliqazi/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>copy NUL GitHubRepoAssignment.txt
+        1 file(s) copied.
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git add GitHubRepoAssignment
+.txt
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git commit -m "added GitHubR
+epoAssignment.txt"
+[master 32b1bf2] added GitHubRepoAssignment.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 GitHubRepoAssignment.txt
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>git push
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 285 bytes | 285.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/maliqazi/GitHubRepoAssignment.git
+   a9189d0..32b1bf2  master -> master
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>notepad GitHubRepoAssignment.txt
+
+C:\Users\Administrator\Desktop\GitHubRepoAssignment>
